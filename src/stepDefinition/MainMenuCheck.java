@@ -35,7 +35,6 @@ public class MainMenuCheck
 	public void i_go_to_the_homepage() throws Throwable 
 	{
 		driver.get("https://orionhealth.com");
-		System.out.println("Eranga");
 	}
 
 	@Then("^I should see 'Solutions for' menu$")
